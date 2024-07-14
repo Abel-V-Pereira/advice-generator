@@ -1,0 +1,70 @@
+body {
+    background-color: var(--cor-de-fundo-body);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Manrope", sans-serif;
+
+}
+
+.cartao {
+    background-color: var(--cor-do-card);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 270px;
+    width: 450px;
+    border-radius: 10px;
+}
+
+.contador-conselho {
+    position: relative;
+    top: 18px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--cor-do-botao-e-contador);
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.conselho {
+    color: var(--cor-do-texto);
+    width: 60%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    transform: scale(1.2);
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    top: 20px;
+}
+
+.divisoria {
+    position: relative;
+    width: 360px;
+    top: 40px;
+}
+
+.botao {
+    background-color: var(--cor-do-botao-e-contador);
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 50px;
+    border: transparent;
+    border-radius: 50%;
+}
+
+.botao-tamanho {
+    position: relative;
+    top: 1px;
+    transform: scale(0.8);
+}
+
+.botao:hover {
+    box-shadow: 0 0 15px hsl(150, 100%, 66%);
+    transition-duration: 0.3s;
+}
